@@ -23,10 +23,10 @@ const facebookProfile = {
   },
 };
 
-// facebookProfile.postMessage("Upe issimaude");
-// facebookProfile.deleteMessage(2);
-// facebookProfile.addFriend();
-// facebookProfile.removeFriend();
+facebookProfile.postMessage("Upe issimaude");
+facebookProfile.deleteMessage(2);
+facebookProfile.addFriend();
+facebookProfile.removeFriend();
 
 // console.log(facebookProfile.messages);
 
@@ -39,9 +39,9 @@ const cars = [
   { type: "VOLVO", price: "25.000" },
 ];
 
-// cars.forEach((index) => {
-//   console.log(`${index.type} car price $${index.price}`);
-// });
+cars.forEach((index) => {
+  console.log(`${index.type} car price $${index.price}`);
+});
 
 //! 1. Sukurkite objektą ‚refridgerator‘. Suteikite jam tokias savybes: color yra black,
 //! fridgeVolume yra 212, freezerVolume yra 77, WiFi yra Boolean ‘false’, make yra
@@ -66,23 +66,23 @@ const refridgerator = {
   },
 };
 
-// refridgerator.isTurnedOn();
+refridgerator.isTurnedOn();
 
 //! 2. Pasinaudodami objektų metodu, išspausdinkite į consolę masyvą su objekto
 //! refridgerator values.
 
-// console.log(Object.values(refridgerator));
+console.log(Object.values(refridgerator));
 
 //! 3. Pasinaudodami objektų metodu, išspausdinkite į consolę masyvą su objekto
 //! refridgerator keys.
 
-// console.log(Object.keys(refridgerator));
+console.log(Object.keys(refridgerator));
 
 //! 4. Pasipraktikuokite objekto destruktūrizavimą ir iš objekto refridgerator į const
 //! priskirkyte objekto make ir model. (Nenaudokite dot notation, t.y object.value).
 
-// const { make, model } = refridgerator;
-// console.log(make, model);
+const { make, model } = refridgerator;
+console.log(make, model);
 
 //! 5. Susikurkite html input fieldą tekstui. Darykite event listener onBlur ir event listener
 //! viduje pabandykite nuskaityti ir į consolę išloginti reikšmę tiek per event.target tiek
